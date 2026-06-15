@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  width: 1128px;
+  max-width: 1128px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -28,6 +28,18 @@ body {
   width: 360px;
   height: 300px;
   object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .gallery {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .login-form {
