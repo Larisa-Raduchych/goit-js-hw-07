@@ -1,3 +1,3 @@
-# goit-js-hw-06
+# goit-js-hw-07
 
-It's my sixth js hw !
+It's my seventh js hw !
